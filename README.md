@@ -1,8 +1,8 @@
-CleanStart Harbor Registry Image
-
+**CleanStart Harbor Registry Image
+**
 ---
 
-📌 Introduction  
+**📌 Introduction ** 
 The `cleanstart/harbor-registry` image provides a secure, scalable, and production-ready container registry for managing Docker and OCI images.
 
 ✔️ Enterprise-grade container registry  
@@ -13,7 +13,7 @@ It is designed for private container image storage, enabling teams to securely m
 
 ---
 
-📌 Why Use `cleanstart/harbor-registry`?  
+**📌 Why Use `cleanstart/harbor-registry`?  **
 ✔️ Secure & Private → Role-based access control (RBAC) and image vulnerability scanning.  
 🚀 Cloud Native → Optimized for Kubernetes and containerized environments.  
 🛠️ Performance Optimized → Fast and efficient image storage and retrieval.  
@@ -32,7 +32,7 @@ docker pull cleanstart/harbor-registry:latest
 
 ---
 
-🔹 Variants
+**🔹 Variants**
 CleanStart provides two image variants:
 
 harbor-registry:latest → Standard Harbor Registry for production.
@@ -40,13 +40,13 @@ harbor-registry:latest-dev → Development variant with additional tools.
 
 ---
 
-🔹 Standard Variant (Recommended for Production)
+**🔹 Standard Variant (Recommended for Production)**
 To pull the standard production-ready image:
 
 ```
 docker pull cleanstart/harbor-registry:latest
 ```
-🔹 Development Variant (For Debugging & Testing):
+**🔹 Development Variant (For Debugging & Testing):**
 To pull the development variant with additional tools image:
 
 ```
@@ -55,7 +55,7 @@ docker pull cleanstart/harbor-registry:latest-dev
 
 ---
 
-🛠️ Usage Examples
+**🛠️ Usage Examples**
 
 💻 Running Harbor Registry as a Standalone Container
 
@@ -66,7 +66,7 @@ Access the registry at: http://localhost:5000⁠
 
 ---
 
-⚠️ Running as Root (for Debugging in -dev Variant)
+**⚠️ Running as Root (for Debugging in -dev Variant)**
 
 ```
 docker run -it --user root --entrypoint /bin/bash cleanstart/harbor-registry:latest-dev
@@ -75,7 +75,7 @@ docker run -it --user root --entrypoint /bin/bash cleanstart/harbor-registry:lat
 
 ---
 
-🔗 Harbor Registry Container Image
+**🔗 Harbor Registry Container Image**
 This image is available on both GitHub Container Registry and Docker Hub.
 
 🔗 GitHub Container Registry: clnstrt/harbor-registry
@@ -83,6 +83,7 @@ This image is available on both GitHub Container Registry and Docker Hub.
 🔗 Docker Hub: docker pull: cleanstart/harbor-registry:latest
 
 ---
-Docker Hub Repository
+**Docker Hub Repository**
+
 This image is available on Docker Hub: [cleanstart/harbor-registry](https://hub.docker.com/repository/docker/cleanstart/harbor-registry)
 
