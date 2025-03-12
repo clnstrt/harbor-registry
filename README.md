@@ -78,6 +78,6 @@ docker run -it --user root --entrypoint /bin/bash cleanstart/harbor-registry:lat
 🔗 Harbor Registry Container Image
 This image is available on both GitHub Container Registry and Docker Hub.
 
-GitHub Container Registry: clnstrt/harbor-registry
-Docker Hub: docker pull: cleanstart/harbor-registry:latest
+🔗 GitHub Container Registry: clnstrt/harbor-registry
+🔗 Docker Hub: docker pull: cleanstart/harbor-registry:latest
 ---
