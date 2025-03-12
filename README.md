@@ -1,8 +1,8 @@
-**CleanStart Harbor Registry Image
-**
+**CleanStart Harbor Registry Image**
+
 ---
 
-**📌 Introduction ** 
+**📌 Introduction**
 The `cleanstart/harbor-registry` image provides a secure, scalable, and production-ready container registry for managing Docker and OCI images.
 
 ✔️ Enterprise-grade container registry  
@@ -13,7 +13,7 @@ It is designed for private container image storage, enabling teams to securely m
 
 ---
 
-**📌 Why Use `cleanstart/harbor-registry`?  **
+**📌 Why Use `cleanstart/harbor-registry`?**
 ✔️ Secure & Private → Role-based access control (RBAC) and image vulnerability scanning.  
 🚀 Cloud Native → Optimized for Kubernetes and containerized environments.  
 🛠️ Performance Optimized → Fast and efficient image storage and retrieval.  
